@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Kabum</title>
+</head>
+<style>
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 2000%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    header {
+        background-color: rgb(52, 96, 192);
+        width: 100%;
+    }
+
+    .logo img{
+        width: 15%;
+    }
+
+    .menu nav a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding-right: 50px;
+        font-size: 15px;
+        font-family: Poppins, sans-serif;
+    }
+
+    .container2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        padding-left: 5px;
+        padding-right: 4px;
+    }
+
+    h1{
+        width: 100%;
+        color: rgb(255, 127, 22);
+    }
+
+    .content-login-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    hr{
+        width: 50%;
+    }
+
+    .inputs{
+        align-items: center;
+        width: 300px;
+        height: 30px;
+        border-radius: 2px;
+    }
+
+
+
+</style>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="kabum-logo-3.png">
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="#">Faça LOGIN ou<p></p>crie seu CADASTRO
+                        </a>
+            </nav>
+        </div>
+
+    </header>
+    <div class="container2">
+        <div class="div1">
+            <h1 style="text-align:center; font-family:Poppins, sans-serif;">FAZER LOGIN</h1>
+
+            <div class="content-login">
+                <form class="content-login-box">
+                    <input type="text" class="inputs" placeholder="E-mail, CPF ou CNPJ">
+                    <input type="password" class="inputs" placeholder="Senha">
+                    <button class="btn btn-enter">Entrar</button>
+                    <a href="#" class="fogot-password">Esqueceu a senha?</a>
+                    <hr>
+                    <h3>Quero acessar com as minhas redes sociais</h3>
+                </div>
+
+                <div class="container3">
+                    <div class="container-info2">
+                        <button class="btn btn-create-account">Facebook</button>
+                        <button class="btn btn-create-account">Google</button>
+                        <h3>Novo no KaBuM! CADASTRE-SE</h3>
+                    </div>
+                </div>
+    
+</body>
+</html>
