@@ -22,9 +22,10 @@
 
     
     header {
-        background-color: rgb(52, 96, 192);
+        background-color: #0060b1;
         width: 100%;
     }
+
 
     .logo img{
         width: 15%;
@@ -51,7 +52,8 @@
 
     h1{
         width: 100%;
-        color: rgb(255, 127, 22);
+        color: #FC6B0F;
+        padding-bottom: 1px;
     }
 
     .content-login-box{
@@ -66,7 +68,8 @@
     }
 
     hr{
-        width: 50%;
+        width: 20%;
+        color: grey;
     }
 
     .inputs{
@@ -74,16 +77,36 @@
         align-items: center;
         width: 300px;
         height: 30px;
-        border-radius: 2px;
+        border-radius: 5px;
         font-size: 17px;
         color: black;
     }
 
-    footer{
-        display: flex;
-        align-items: center;
-        padding-top: 370px;
+    .div2{
+        background-color: #0060b1;
+	    color: #fff;
+	    padding: 0px;
+	    text-align: center;
+	    margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 12px;
+
     }
+
+    .div3{
+        width: 100%;
+        background-color: #0f4979;
+	    color: #fff;
+	    padding: 1px;
+	    text-align: center;
+	    margin-top: 0px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        font-size: 12px;
+
+    }
+
 
     .container3 {
         display: flex;
@@ -104,18 +127,82 @@
         font-family: Poppins, sans-serif;
     }
 
-    @media screen and(maz-width: 768px){
+    .logo2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 100px;
+
+    }
+
+    .btn-enter{
+    padding: 10px;
+    border: 1px;
+    background-color:#FC6B0F;
+    border-radius: 5px;
+    width: 17%;
+    font-size: 1rem;
+    transition: .2s;
+    cursor: pointer;
+    font-family:Poppins, sans-serif;
+}
+
+   .btn-create-account1{
+    padding: 0px;
+    border: solid 2px;
+    border-color: #0060b1;
+    background-color:#ffffff;
+    border-radius: 5px;
+    width: 10%;
+    font-size: 1rem;
+    transition: .2s;
+    cursor: pointer;
+    font-family:Poppins, sans-serif;
+
+}
+
+   .btn-create-account2{
+    padding: 0px;
+    border: solid 2px;
+    border-color: #d11e1e;
+    background-color:#ffffff;
+    border-radius: 5px;
+    width: 10%;
+    font-size: 1rem;
+    transition: .2s;
+    cursor: pointer;
+    font-family:Poppins, sans-serif;
+
+}
+
+   .fogot-password{
+    padding-left: 160px;
+    color: grey;
+    font-size: 13px;
+
+}
+
+   h3{
+    text-align: center;
+    padding-bottom: 0.1rem;
+   }
+
+    @media screen and(maz-width: 450px){
     .container{
         display: block;
     }
     .div1 img{
-        width: 70vw;
+        width: 50vw;
     }
     .div1{
-        width: 100vw;
+        width: 80vw;
     }
     .div2{
-        width: 90vw;
+        width: 50vw;
+    }
+    .div3{
+        width: 50vw;
     }
 }
 
@@ -130,16 +217,13 @@
                 <img src="kabum-logo-3.png">
             </div>
             <div class="menu">
-                <nav>
-                    <a href="#">Faça LOGIN ou<p></p>crie seu CADASTRO
-                        </a>
-            </nav>
+                <img src="kabum-print2png.png">
         </div>
 
     </header>
     <div class="container2">
         <div class="div1">
-            <h1 style="text-align:center; font-family:Poppins, sans-serif;">FAZER LOGIN</h1>
+            <h1 style="text-align:center; font-family:Poppins, sans-serif; font-size: 20px; padding-right: 160px;">FAZER LOGIN</h1>
 
             <div class="content-login">
                 <form class="content-login-box">
@@ -148,19 +232,31 @@
                     <button class="btn btn-enter">Entrar</button>
                     <a href="#" class="fogot-password">Esqueceu a senha?</a>
                     <hr>
-                    <h3>Quero acessar com as minhas redes sociais</h3>
+                    <h3 style="text-align:center; font-family:Poppins, sans-serif; font-size: 17px; color: grey;">Quero acessar com as minhas redes sociais</h3>
                 </div>
 
                 <div class="container3">
                     <div class="container-info2">
-                        <button class="btn btn-create-account">Facebook</button>
-                        <button class="btn btn-create-account">Google</button>
-                        <h3>Novo no KaBuM! CADASTRE-SE</h3>
+                        <button class="btn btn-create-account1">Facebook</button>
+                        <button class="btn btn-create-account2">Google</button>
                     </div>
                 </div>
 
+                <h3 style="color: grey; text-align: center; font-family: Poppins, sans-serif;">Novo no KaBuM!</h3>
+                        <h3 style="color: #FC6B0F;text-align: center; font-family: Poppins, sans-serif;">CADASTRE-SE</h3>
+
+                        <div class="logo2">
+                            <img src="print-kabum.png">
+                        </div>
+
                 <div class="container4">
                     <div class="div2">
+                        <footer>Políticas do Site e Marketplace Políticas de Privacidade Exerça seus Direitos de Privacidade</footer>
+            </div>
+        </div>
+
+        <div class="container5">
+            <div class="div3">
                 <footer>KaBuM!® é uma marca registrada de KABUM S.A | CNPJ: 05.570.714/0001-59 | Todos os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem ser alterados sem prévio aviso. O KaBuM! não é responsável por erros descritivos. As fotos contidas nesta página são meramente ilustrativas do produto e podem variar de acordo com o fornecedor/lote do fabricante. Este site trabalha 100% em criptografia SSL.  Clique aqui e veja as políticas de nossa empresa.</footer>
             </div>
         </div>
