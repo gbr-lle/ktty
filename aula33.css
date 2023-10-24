@@ -1,0 +1,39 @@
+button{
+    display: block;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    color: rgb(25, 40, 61);
+    background-color: rgb(219, 246, 255);
+    border-radius: 5px;
+    border: solid 3px;
+    border-color: rgb(18, 100, 155);
+    font-size: 15px;
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    color: rgb(18, 100, 155);
+    background-color: rgb(223, 243, 255);
+    font-size: 26px;
+
+}
+
+input{
+    text-align: center;
+    display: block;
+    width: 250px;
+    background-color: rgb(210, 228, 245);
+    border-color: rgb(197, 223, 247);
+    border: solid 3px;
+    border-radius: 2px;
+    font-family: monospace;
+
+}
+
+.calculo{
+    border: solid 3px;
+    border-color: rgb(62, 103, 141);
+}
