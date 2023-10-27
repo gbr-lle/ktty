@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1080%;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+header {
+    background-color: rgba(202, 202, 202, 0.919);
+    width: 100%;
+}
+
+.logo img {
+    width: 120px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu nav a {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 80px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.sociais img{
+    width: 40px;
+}
+
+.designer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size:19px;
+    
+}
+
+.designer h1{
+    font-size:50px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.designer p{
+    color:rgb(0, 0, 0);
+    font-family: monospace;
+}
+
+.foto img{
+    width: 500px;
+}
+
+.coder{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size:19px
+    
+}
+
+.coder h1{
+    font-size:50px;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.coder p{
+    color:rgb(0, 0, 0);
+    font-family: monospace;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
