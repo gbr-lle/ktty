@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números com JavaScript</title>
+
+    <style>
+        .container{
+            width: 50%;
+            text-align: center;
+            padding-top: 10%;
+            border: solid 3px;
+            padding-left: 24%;
+            padding-right: 25%;
+            border-radius: 1%;
+        }
+
+        button{
+            width: 15%;
+            font-family: monospace;
+            cursor: pointer;
+            background-color: rgb(141, 141, 245);
+            font-size: 15px;
+            transition-duration: 0.4s;
+        }
+
+        body{
+            background-color: rgb(230, 230, 255);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;
+    color: rgb(104, 104, 255); padding-top: 5%; padding-bottom: 3%;">Trabalhando com números &#129303;</h1>
+    <div class="container">
+        <button onclick="calcular()">Clique para calcular</button>
+        <section id="res">
+            <p>O resultado vem aqui...</p>
+        </section>
+    </div>
+
+    <script>
+        window.alert('Olá, seja bem-vindo(a) ao meu site!')
+        function calcular() {
+            let n1 = Number(window.prompt('Digite um número: '))
+            let res = document.querySelector('section#res')
+
+            res.innerHTML = `<p>O dobro de ${n1} é ${n1*2} e a metade é ${n1/2}!</p>`
+        }
+    </script>
+    
+</body>
+</html>
