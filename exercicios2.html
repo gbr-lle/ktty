@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interação JS</title>
+    <style>
+        body{
+            font-family: monospace;
+            text-align: center;
+            padding-top: 15%;
+        }
+        button{
+            width: 15%;
+            font-size: 15px;
+            padding: 50px;
+            font-family: monospace;
+            background-color: rgb(150, 208, 255);
+            border-radius: 5%;
+            border: solid 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Interagindo com um botão</h1>
+    <button onclick="clicou()">Clique aqui!</button>
+    <script>
+        function clicou(){
+            window.alert( 'Você clicou no botão')
+        }
+    </script>
+    
+</body>
+</html>
