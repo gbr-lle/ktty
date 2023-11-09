@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados com JavaScript</title>
+
+    <style>
+        div img{
+            width: 50%;
+            border: solid 6px;
+            border-radius: 5%;
+            padding-left: 0%;
+            padding-right: 0%;
+            
+        }
+
+        .container{
+            text-align: center;
+            padding-top: 10%;
+        }
+
+        button{
+            width: 15%;
+            font-size: 15px;
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(139, 95, 196);
+            border-radius: 5%;
+            border: solid 3px;
+            padding-left: 0%;
+            padding-right: 0%;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        body{
+            background-color: rgb(245, 245, 179);
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; color: rgb(255, 179, 64); padding-top: 5%;">Trabalhando com dados v1.0</h1>
+    <button onclick="inicio()">Clique para começar</button>
+    <script>
+        function inicio() {
+            let nome = window.prompt('Qual é o seu nome?')
+            window.alert(`Olá, ${nome}! É um prazer te conhecer!`)
+        }
+    </script>
+
+    <div class="container">
+        <div class="imagem">
+            <img src="java.jpeg">
+        </div>
+    </div>
+    
+</body>
+</html>
